@@ -55,18 +55,21 @@ h1, h2, h3 {
   font: inherit;
 }
 
-/* Utility-first */
+/* Imagens */
 
-.grid {
-  display: grid;
+img {
+  max-width: 100%;
 }
 
-.grid-flow-column {
-  grid-auto-flow: column;
-}
+
+/* Container */
 
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
+}
+
+main {
+  margin-top: 40px;
 }
